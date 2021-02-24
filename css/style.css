@@ -56,12 +56,9 @@ nav .mainMenu .closeMenu, .icons i {
     justify-content: space-between;
 }
 .place{
-    background: url(../pictures/way.png);
-    background-position: center;
-    background-size: cover;
     width: 840px;
-    height: 600px;
-    left: 0;
+    background: url(../pictures/way.png);
+    
 }
 .title {
     padding: 180px 0 40px 140px;
@@ -110,16 +107,15 @@ nav .mainMenu .closeMenu, .icons i {
 
 /* პირველი სექცია ,მარჯვენა მხარე*/
 
-.articl-title{
-    width: 380px;
-    height: 299px;
-    padding-left: 98px;
-    padding-right: 120px;
+.articl-title{  
+    padding-right: 100px;
 }
 .second-title{
     padding-top: 98px;
+    padding-bottom: 36px;
     display:flex;
     justify-content: space-between;
+    box-shadow: 0 2px  #EBEDED;
 }
 
 .news-title{
@@ -128,8 +124,7 @@ nav .mainMenu .closeMenu, .icons i {
     font-size: 24px;
     color: #202124;
 }
-.fa-chevron-left
-{
+.fa-chevron-left{
     color: #A6ADB4;
 }
 .small-articl{
@@ -166,3 +161,195 @@ nav .mainMenu .closeMenu, .icons i {
 
 
 /* მეორე სექცია */
+.second-title-block{
+    width: 1160px;
+    padding-top: 98px;
+    padding-bottom: 36px;
+    padding-left:138px ;
+    display:flex;
+    justify-content: space-between
+}
+.arrow {
+    padding-left: 800px;
+}
+
+.flex-block{
+    width: 1160px;
+    display: flex;
+    padding-left:140px ;
+}
+.first-block{
+    width: 360px;
+    height: 350px;
+    padding-right: 36px;
+}
+.image {
+    width: 360px;
+    height: 180px;
+}
+.first-block h4 {
+    padding-top: 44px;
+    font-family: 'Helvetica';
+    font-weight: bold;
+    font-size: 16px;
+    color: #202124;
+}
+.first-block p{
+    font-family: 'Acumin Pro';
+    font-size: 13px;
+    color: #A6ADB4;
+    padding-bottom: 14px;
+    padding-top: 10px;
+}
+/* მესამე სექცია */
+
+.flex-second-block{
+    display: flex;
+    padding-right: 120px;
+}
+.background-artical{
+    background-image: url(../pictures/bridge.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 760px;
+    height: 430px;
+    margin-left: 140px;
+    margin-right: 60px;
+}
+.background-artical h4 {
+    padding: 40px 0 0 40px;
+    font-family: 'Helvetica';
+    font-weight: bold;
+    font-size: 16px;
+    color: #F6F8F9;
+}
+.background-artical h3 {
+    font-family: 'Helvetica';
+    font-weight: bold;
+    font-size: 24px;
+    color: #F6F8F9;
+    padding: 240px 0 0 44px;
+}
+.background-artical p{
+    font-family: 'Helvetica';
+    font-size: 16px;
+    color: #F6F8F9;
+    padding: 10px 0 10px 44px;
+}
+.clock{
+    padding: 10px 0 30px 44px;
+    color: #F6F8F9;
+    font-size: 13px;
+}
+
+.background-artical-box{
+    background-image: url(../pictures/forest.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 760px;
+    height: 430px;
+    margin: 40px 60px 0 140px;
+}
+.background-artical-box h4{
+    padding: 40px 0 0 40px;
+    font-family: 'Helvetica';
+    font-weight: bold;
+    font-size: 16px;
+    color: #F6F8F9;
+}
+.background-artical-box h3{
+    font-family: 'Helvetica';
+    font-weight: bold;
+    font-size: 24px;
+    color: #F6F8F9;
+    padding: 240px 0 0 44px;
+}
+.background-artical-box p{
+    font-family: 'Helvetica';
+    font-size: 16px;
+    color: #F6F8F9;
+    padding: 10px 0 10px 44px;
+}
+
+
+
+/* მესამე სექცია ,მარჯვენა მხარე*/
+
+.pic{
+    width: 360px;
+    height: 210px;
+    
+}
+.wrapper-box h6 {
+    font-family: 'Acumin Pro';
+    font-weight: bold;
+    font-size: 16px;
+    padding-top:20px ;
+}
+.clock-tittle{
+    padding-top: 18px;
+    padding-bottom: 40px;
+    font-family: 'Helvetica';
+    font-size: 13px;
+    color: #A6ADB4;
+}
+/* ბოლო ნაწილი */
+.footer-menu{
+    display: flex;
+    justify-content: space-between;
+    height: 200px;
+    background-color: #A6ADB4;
+    padding-top: 56px;
+    padding-left: 140px;
+    padding-right:135px ;
+}
+nav {
+    background-color: #A6ADB4;
+    
+}
+.footer-menu a , li  {
+    color: #CBD0D3;
+    font-family: 'Helvetica';
+    font-weight: bold;
+    font-size: 13px;
+    margin-bottom: 13px;
+}
+.logo-name h2 {
+    font-family: 'Acumin Pro';
+    font-weight: bold;
+    font-size: 13px;
+    color: #FFFFFF;
+}
+.email-box{
+    border: 1px solid #CBD0D3;
+    border-radius: 5px;
+    width: 262px;
+    height: 40px;
+    background-color:  #A6ADB4;
+}
+.email{
+    border: none;
+    outline: none;
+    background-color:  #A6ADB4;
+    color: #CBD0D3;
+    padding-top:14px;
+    padding-left: 19px;
+}
+.line{
+    color: #FFFFFF;
+    padding-left: 19px;
+    cursor: pointer;
+}
+.products{
+    padding-top: 18px;
+    font-family: 'Helvetica';
+    font-size: 11px;
+    color: #CBD0D3;
+}
+.icones-bar i {
+    color: #FFFFFF;
+    font-size: 16px;
+    padding-right:32px ;
+}
