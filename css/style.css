@@ -1,0 +1,168 @@
+.container{
+    max-width: 1440px;
+	width: 100%;
+	margin:0 auto;
+}
+/* ნავიგაციით */
+
+nav {
+    background-color: #F6F8F9;
+    color: #343638;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Helvetica';
+    font-weight: bold;
+}
+.main-logo{
+    padding-left:22px ;
+    font-size: 13px;
+    color: #FF4D4D;
+}
+.profile{
+    margin-top: 10px;
+    padding-left: 36px;
+    padding-right:20px ;
+}
+
+nav .mainMenu {
+    display: flex;
+}
+nav .mainMenu li a {
+    font-size: 11px;
+    display: inline-block;
+    padding: 22px;
+    text-transform: uppercase;
+    color: #707070;
+}
+nav .mainMenu li a:hover{
+color: #202124;
+}
+nav .openMenu {
+    font-size: 2px;
+    margin: 20px;
+    display: none;
+    cursor: pointer;
+}
+nav .mainMenu .closeMenu, .icons i {
+    font-size: 3px;
+    display: none;
+    cursor: pointer;
+}
+/* პირველი სექცია ,მარცხენა მხარე*/
+.flex {
+    padding-top:9px;
+    display: flex;
+    justify-content: space-between;
+}
+.place{
+    background: url(../pictures/way.png);
+    background-position: center;
+    background-size: cover;
+    width: 840px;
+    height: 600px;
+    left: 0;
+}
+.title {
+    padding: 180px 0 40px 140px;
+    color: #F6F8F9;
+    font-family: 'Helvetica';
+    font-weight: bold;
+    font-size: 24px;
+    
+}
+.border{
+    border: 1px solid white;
+    width:560px;
+    margin-left: 140px;
+}
+.articl{
+    width: 525px;
+    height: 76px;
+    display:inline-block;
+    padding: 42px 0 40px 140px;
+    font-family: 'Helvetica';
+    color: #F6F8F9;
+    padding-top:14px ;
+}
+.articl h3{
+    font-weight: bold;
+    font-size: 24px;
+}
+.articl p{
+    font-size: 16px;
+    padding-top: 14px;
+}
+.button {
+    width: 134px;
+    height: 40px;
+    margin-top:32px ;
+    background-color: #FA6980;
+    border: none;
+    border-radius: 8px;
+}
+.button  a{
+    color: #F6F8F9;
+    font-size: 11px;
+    font-weight: bold;
+}
+
+
+/* პირველი სექცია ,მარჯვენა მხარე*/
+
+.articl-title{
+    width: 380px;
+    height: 299px;
+    padding-left: 98px;
+    padding-right: 120px;
+}
+.second-title{
+    padding-top: 98px;
+    display:flex;
+    justify-content: space-between;
+}
+
+.news-title{
+    font-family: 'Helvetica';
+    font-weight: bold;
+    font-size: 24px;
+    color: #202124;
+}
+.fa-chevron-left
+{
+    color: #A6ADB4;
+}
+.small-articl{
+    padding-top: 40px;
+}
+.small-articl h5 {
+    font-family: 'Helvetica';
+    font-weight: bold;
+    font-size: 16px;
+    color: #FA6980;
+    padding-bottom: 22px;
+
+}
+.small-articl h3 {
+    font-family: 'Helvetica';
+    font-weight: bold;
+    font-size: 16px;
+    color: #202124;
+    padding-bottom: 18px;
+    
+}
+.small-articl p{
+    font-family: 'Acumin Pro';
+    font-size: 14px;
+    color: #A6ADB4;
+    padding-bottom: 14px;
+}
+.time{
+    font-family: 'Helvetica';
+    font-size: 13px;
+    color: #A6ADB4;
+    padding-top: 16px;
+}
+
+
+/* მეორე სექცია */
