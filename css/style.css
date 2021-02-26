@@ -1,16 +1,15 @@
 .container{
     max-width: 1440px;
 	width: 100%;
-	margin:0 auto;
-    padding: 0;
+	margin:2px auto;
 }
 body{
     background-color: #F6F8F9;
 }
-/* ნავიგაციით */
+/* ნავიგაცია */
+
 
 .navbar {
-    width: 100%;
     background-color: #F6F8F9;
     color: #343638;
     display: flex;
@@ -55,14 +54,18 @@ nav .mainMenu li a:hover{
     color: #202124;
 }
 nav .openMenu {
-    font-size: 2rem;
+    font-size: 3rem;
     margin: 20px;
     display: none;
     cursor: pointer;
 }
-nav .mainMenu .closeMenu {
-    font-size: 2rem;
+nav .closeMenu{
+    font-size: 1rem;
     display: none;
+    cursor: pointer;
+}
+nav .mainMenu  {
+    font-size: 2rem;
     cursor: pointer;
 }
 
@@ -70,7 +73,6 @@ nav .mainMenu .closeMenu {
 /* პირველი სექცია ,მარცხენა მხარე*/
 .flex {
     padding-top:9px;
-    width: 100%;
     display: flex;
     justify-content: space-between;
 }
@@ -81,7 +83,6 @@ nav .mainMenu .closeMenu {
     background-size: cover;
     width: 800px;
     height: 600px;
-    
 }
 .title {
     padding: 180px 0 40px 0;
@@ -188,12 +189,14 @@ nav .mainMenu .closeMenu {
 
 /* მეორე სექცია */
 
-.second-title-block{
+.section{
     padding-top: 98px;
+}
+.second-title-block{
     padding-bottom: 36px;
-    margin-left:138px ;
     display:flex;
     justify-content: space-between;
+    margin-left: 140px;
 }
 .awsame{
     margin-right: 50px;
@@ -201,26 +204,22 @@ nav .mainMenu .closeMenu {
 .flex-block{
     display: flex;
     flex-wrap: wrap;
-    padding-left:140px ;
+    margin-left: 140px;
 }
 .first-block,.first-block1{
     background-color: #FFFFFF;
     width: 360px;
     height: 350px;
-    margin-right: 40px;
+    margin-right: 20px;
 }
-.image {
-    width: 360px;
-    height: 180px;
-}
-.first-block ,.first-block1 ,h4 {
+.first-block h4,.first-block1 h4 {
     padding-top: 44px;
     font-family: 'Helvetica';
     font-weight: bold;
     font-size: 16px;
     color: #202124;
 }
-.first-block,.first-block1 , p{
+.first-block p,.first-block1  p{
     font-family: 'Acumin Pro';
     font-size: 13px;
     color: #A6ADB4;
@@ -229,10 +228,17 @@ nav .mainMenu .closeMenu {
     line-height: 20px;
 }
 /* მესამე სექცია */
-
+.second-title-block1{
+    margin-top: 120px;
+    margin-left: 140px;
+    padding-bottom: 36px;
+    display:flex;
+    justify-content: space-between;
+}
 .flex-second-block{
     display: flex;
     flex-wrap: wrap;
+    margin-bottom: 90px;
 }
 .background-artical{
     background-image: url(../pictures/bridge.png);
@@ -241,7 +247,7 @@ nav .mainMenu .closeMenu {
     background-size: cover;
     width: 760px;
     height: 430px;
-    margin-left: 140px;
+    margin: 40px 0 0 0;
 }
 .background-artical h4 {
     padding: 40px 0 0 40px;
@@ -277,7 +283,7 @@ nav .mainMenu .closeMenu {
     background-size: cover;
     width: 760px;
     height: 430px;
-    margin: 40px 0 0 140px;
+    margin: 40px 0 0 0;
 }
 .background-artical-box h4{
     padding: 40px 0 0 40px;
@@ -305,10 +311,11 @@ nav .mainMenu .closeMenu {
 
 /* მესამე სექცია ,მარჯვენა მხარე*/
 
-.wrapper-box{
-   margin-left:30px ; 
+.pictures-block{
+   margin-left:30px; 
+   margin-top: 40px;
 }
-.wrapper-box h6 {
+.wrapper-box h6 ,.wrapper-box1 h6 {
     font-family: 'Acumin Pro';
     font-weight: bold;
     font-size: 16px;
@@ -316,7 +323,7 @@ nav .mainMenu .closeMenu {
 }
 .clock-tittle{
     padding-top: 18px;
-    padding-bottom: 40px;
+    padding-bottom: 20px;
     font-family: 'Helvetica';
     font-size: 13px;
     color: #A6ADB4;
@@ -359,6 +366,12 @@ nav .mainMenu .closeMenu {
     height: 40px;
     background-color:  #A6ADB4;
 }
+.responciv-footer{
+    display: flex;
+}
+.mail{
+    padding-right: 50px;
+}
 .email{
     border: none;
     outline: none;
@@ -381,19 +394,21 @@ nav .mainMenu .closeMenu {
 .icones-bar i {
     color: #FFFFFF;
     font-size: 16px;
-    padding-right:32px ;
+    padding-left:10px ;
 }
 
 
 
 /*მეორე გვერდი, პირველი ნაწილი */
+.background{
+    margin-left: 140px;
+}
 .flexd-block{
     display: flex;
     align-items: center;
     justify-content: space-between;
     cursor: pointer;
     margin-top: 69px;
-    margin-left: 140px;
     padding-right:19px ;
     font-family: 'Acumin Pro';
     font-weight: bold;
@@ -419,7 +434,6 @@ nav .mainMenu .closeMenu {
 .pothition{
     width: 580px;
     height: 500px;
-    margin-left: 140px;
 }
 .relativ{
     position: absolute;
@@ -467,15 +481,20 @@ nav .mainMenu .closeMenu {
 }
 .keywords{
     background-color: #FFFFFF;
-    padding: 137px 82px 117px 138px;
+    width: 580px;
+    height: 500px;
+    margin-top: 35px;
 }
 .box-name{
+    padding: 150px 82px 117px 138px;
+}
+.label-block{
     display: flex;
     flex-direction: column;
     font-family: 'Acumin Pro';
     font-weight: bold;
     font-size: 13px;
-    padding-bottom: 10px;
+    padding-bottom: 20px;
     border-radius: 8px;
     width: 360px;
     height: 40px;
@@ -511,6 +530,9 @@ nav .mainMenu .closeMenu {
     font-size: 13px;
     margin-bottom: 15px;
 }
+.search1{
+    display: none;
+}
 .search{
     width: 134px;
     height: 40px;
@@ -536,8 +558,7 @@ nav .mainMenu .closeMenu {
     height: 253px;
     display: flex;
     justify-content: space-between;
-    margin-top: 40px;
-    margin-left:140px ;
+    margin-top: 80px;
     margin-bottom: 40px;
     border: 1px solid #EBEDED;
 }
@@ -554,20 +575,19 @@ nav .mainMenu .closeMenu {
     text-align: start;
     line-height: 30px;
 }
-.second-title-section p{
+.second-title-section ,.second-title-section1 p{
     line-height: 20px;
 }
-.second-title-section {
+.second-title-section, .second-title-section1{
     text-align: start;
     margin-top: 38px;
-    margin-left: 70px;
     font-family: 'Helvetica';
     font-size: 14px; 
     color: #A6ADB4;
 }
 /* მეორე გვერდის,ბოლო სექცია*/
 .last-block{
-    margin: 70px 0 160px 140px;
+    margin: 70px 0 160px 0;
     border-bottom: 1px solid #EBEDED;
 }
 .eleph{
@@ -592,14 +612,39 @@ nav .mainMenu .closeMenu {
     padding-top: 40px;
     padding-bottom: 40px;
 }
+.molestie-hide{
+    display: none;
+}
+.pageNumber-hide{
+    display: none;
+}
 
 
 /* რესფონსივი*/
 
+@media(max-width: 1320px){
+    .flex-block{
+        display: flex;
+        flex-wrap: wrap;
+       justify-content: center;
+    }
+    .first-block1{
+        margin-top:40px ;
+    }
+    .pictures-block{
+        display: flex;
+        flex-wrap: wrap;
+       justify-content: center;
+    }
+    .wrapper-box, .wrapper-box1{
+        padding-left: 40px;
+    }
+}
 
-@media(max-width: 800px){
+
+@media(max-width: 900px){
     nav .mainMenu{
-        height: 100vh;
+        height: 90vh;
         position: fixed;
         top: 0;
         right: 0;
@@ -615,7 +660,7 @@ nav .mainMenu .closeMenu {
         display: block;
         position: absolute;
         top: 20px;
-        right: 20px;
+        right: 5px;
     }
     nav .mainMenu i{
         display: inline-block;
@@ -646,6 +691,9 @@ nav .mainMenu .closeMenu {
         align-items: center;
         flex-direction: column;
     }
+    .place{
+        width: 90%px;
+    }
     .articl-title{
         width: 100%;
         height: 346px;
@@ -658,14 +706,128 @@ nav .mainMenu .closeMenu {
     .tavel-tecnology {
         display:flex;
         justify-content: space-between;
-        padding-bottom: 80px;
-
     }
     .small-articl{
         padding-left: 40px;
     }
+    .flex-block{
+        display: flex;
+    }
+    .image{
+        width: 284px;
+        height: 180px;
+    }
     .first-block{
-        display:inl ;
+        width: 284px;
+        height: 180px;
+        margin-bottom: 78px;
+    }
+    .first-block1{
+        display: none;
+    }
+    .background-artical{
+        width: 600px;
+        height: 430px;
+    }
+    .background-artical-box{
+        width: 608px;
+        height: 430px;
+    }
+    .pictures-block{
+        display: flex;
+        margin-left:80px;
+    }
+    .wrapper-box img{
+        width: 284px;
+        height: 180px;
+    }
+    .wrapper-box{
+        margin-top: 38px;
+        padding-right: 40px;
+    }
+    .wrapper-box1{
+        display: none;
+    }
+    .responciv-footer{
+        display: flex;
+    }
+    .icones-bar {
+        padding-top: 50px;
+        margin-left: 20px;
+    }
+    /*მეორე გვერდის რესფონსივი*/
+    .second-page-flex{
+        display: flex;
+        flex-direction: column;
+    }
+    .search{
+        display: none;
+    }
+    .keyword{
+       margin-bottom: 15px;
+
+    }
+    .search1{
+        display: block;
+        width: 134px;
+        height: 40px;
+        margin-top: 40px;
+        background-color: #FA6980;
+        color: #FFFFFF;
+        font-family: 'Helvetica';
+        font-weight: bold;
+        font-size: 11px; 
+        border: none;
+        outline: none;
+        border-radius: 9px;
+        cursor: pointer;
+    }
+    .article-box{
+        display: flex;
+        flex-wrap: wrap;
+        width: 608px;
+        height: 465px;
+        margin-top: 80px;
+       
+    }
+    .second-title-section{
+        float: right;
+        width: 250px;
+    }
+    .second-title-section1{
+        float: left;
+        width: 250px;
+        height: 224px;
+    }
+    .eleph{
+        width: 608px;
+        height: 260px;
+    }
+    .last-block{
+        margin-top: 40px;
+    }
+    .molestie ,.molestie1{
+        width: 608px;
+    }
+    .molestie-hide{
+        display: block;
+    }
+    .pageNumber-hide {
+       display: block;
+    }
+    .pageNumber-hide ul{
+        display: flex;
+        justify-content: center;
+    }
+    .pageNumber-hide ul li{
+        line-height: 50px;
+        margin: 8px;
+    }
+    .pageNumber  a{
+        color: #A6ADB4;
+    }
+    .pageNumber a:hover{
+        color: black;
     }
 
 }
