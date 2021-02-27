@@ -8,7 +8,6 @@ body{
 }
 /* ნავიგაცია */
 
-
 .navbar {
     background-color: #F6F8F9;
     color: #343638;
@@ -75,41 +74,45 @@ nav .mainMenu  {
 
 /* პირველი სექცია ,მარცხენა მხარე*/
 .flex {
+    width: 100%;
+    left: 0;
     padding-top:9px;
     display: flex;
     justify-content: space-between;
 }
-.place{
-    background: url(../pictures/way.png);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
+.way{
+    position: absolute;
     width: 800px;
     height: 600px;
 }
+.way-img{
+    width: 93%;
+}
+
 .title {
-    padding: 180px 0 40px 0;
+    padding-bottom: 14px;
     color: #F6F8F9;
     font-family: 'Helvetica';
     font-weight: bold;
     font-size: 24px;
     border-bottom: 3px solid #F6F8F9;
-    width: 560px;
 }
 .title-hide{
     display: none;
 }
 .articl{
+    position: relative;
     width: 525px;
     height: 76px;
     display:inline-block;
     font-family: 'Helvetica';
     color: #F6F8F9;
-    padding-top:14px ;
+    padding: 180px 0 40px 44px;
 }
 .articl h3{
     font-weight: bold;
     font-size: 24px;
+    padding-top:14px ;
 }
 .articl p{
     font-size: 16px;
@@ -136,11 +139,9 @@ nav .mainMenu  {
     background-color: #FFFFFF;
     width: 600px;
     height: 600px;
-    margin-right: 50px;
-    padding-left: 50px;
 }
 .second-title{
-    padding-bottom: 36px;
+    padding-top:60px ;
     display:flex;
     justify-content: space-between;
     box-shadow: 0 2px  #EBEDED;
@@ -155,6 +156,9 @@ nav .mainMenu  {
 .fa-chevron-left{
     color: #A6ADB4;
     padding-right: 10px;
+}
+.tavel-tecnology{
+    padding-top: 50px;
 }
 .small-articl{
     padding-top: 10px;
@@ -193,6 +197,7 @@ nav .mainMenu  {
 /* მეორე სექცია */
 
 .section{
+    padding-left: 120px;
     padding-top: 98px;
 }
 .second-title-block{
@@ -229,9 +234,13 @@ nav .mainMenu  {
     line-height: 20px;
 }
 /* მესამე სექცია */
+
+
+
+
 .second-title-block1{
     margin-top: 120px;
-    /*margin-left: 140px;*/
+    padding-left: 120px;
     padding-bottom: 36px;
     display:flex;
     justify-content: space-between;
@@ -240,15 +249,18 @@ nav .mainMenu  {
     display: flex;
     flex-wrap: wrap;
     margin-bottom: 90px;
+    padding-left: 120px;
 }
 .background-artical{
-    background-image: url(../pictures/bridge.png);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
     width: 760px;
     height: 430px;
     margin: 40px 0 0 0;
+}
+.city{
+    position: relative;
+}
+.bridge{
+    position: absolute;
 }
 .background-artical h4 {
     padding: 40px 0 0 40px;
@@ -257,14 +269,14 @@ nav .mainMenu  {
     font-size: 16px;
     color: #F6F8F9;
 }
-.background-artical h3 {
+.city h3 {
     font-family: 'Helvetica';
     font-weight: bold;
     font-size: 24px;
     color: #F6F8F9;
-    /*padding: 240px 0 0 44px;*/
+    padding: 240px 0 0 44px;
 }
-.background-artical p{
+.city p{
     font-family: 'Helvetica';
     font-size: 16px;
     color: #F6F8F9;
@@ -276,12 +288,18 @@ nav .mainMenu  {
     color: #F6F8F9;
     font-size: 13px;
 }
+.forest{
+    position: absolute;
+    
+}
+.travel{
+    position: relative;
+}
+.bridge-img{
+    width: 100%;
+}
 
 .background-artical-box{
-    background-image: url(../pictures/forest.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
     width: 760px;
     height: 430px;
     margin: 40px 0 0 0;
@@ -293,14 +311,14 @@ nav .mainMenu  {
     font-size: 16px;
     color: #F6F8F9;
 }
-.background-artical-box h3{
+.travel h3{
     font-family: 'Helvetica';
     font-weight: bold;
     font-size: 24px;
     color: #F6F8F9;
-    /*padding: 240px 0 0 44px;*/
+    padding: 240px 0 0 44px;
 }
-.background-artical-box p{
+.travel p{
     font-family: 'Helvetica';
     font-size: 16px;
     color: #F6F8F9;
@@ -312,8 +330,10 @@ nav .mainMenu  {
 
 /* მესამე სექცია ,მარჯვენა მხარე*/
 
+
+
 .pictures-block{
-   /*margin-left:30px; */
+   padding-left:30px;
    margin-top: 40px;
 }
 .wrapper-box h6 ,.wrapper-box1 h6 {
@@ -329,7 +349,16 @@ nav .mainMenu  {
     font-size: 13px;
     color: #A6ADB4;
 }
+
+
+
+
 /* ბოლო ნაწილი */
+
+
+
+
+
 .footer-menu{
     display: flex;
     justify-content: space-between;
@@ -337,13 +366,12 @@ nav .mainMenu  {
     height: 200px;
     background-color: #A6ADB4;
     padding-top: 56px;
-    /*padding-left: 140px;*/
-    padding-right:135px ;
+    padding-left: 40px;
+    padding-right: 40px;
 }
 .nav-bar {
     background-color: #A6ADB4;
     display: flex;
-    justify-content: space-between;
     
 }
 .footer-menu a , li  {
@@ -401,6 +429,10 @@ nav .mainMenu  {
 
 
 /*მეორე გვერდი, პირველი ნაწილი */
+
+
+
+
 .background1{
     margin-left: 140px;
 }
@@ -623,19 +655,17 @@ nav .mainMenu  {
 
 /* რესფონსივი*/
 
-@media(max-width: 1320px){
+@media(max-width: 900px){
     .flex-block{
         display: flex;
         flex-wrap: wrap;
-       justify-content: center;
+        justify-content: center;
     }
     .first-block1{
         margin-top:40px ;
     }
     .pictures-block{
         display: flex;
-        flex-wrap: wrap;
-       justify-content: center;
     }
     .wrapper-box, .wrapper-box1{
         padding-left: 40px;
@@ -643,75 +673,36 @@ nav .mainMenu  {
 }
 
 
-@media(max-width: 900px){
-    nav .mainMenu{
-        height: 90vh;
-        position: fixed;
-        top: 0;
-        right: 0;
-        left: 0;
-        z-index: 10;
-        flex-direction: column;
-        justify-content: start;
-        align-items: flex-start;
-        background-color: #F6F8F9;
-        transition: top 1s ease;
-    }
-    nav .mainMenu  .closeMenu{
-        display: block;
-        position: absolute;
-        top: 20px;
-        right: 5px;
-    }
-    nav .mainMenu i{
-        display: inline-block;
-        font-size: 11px;
-    }
-    .christopher a {
-        font-size: 11px;
-        display: inline-block;
-        vertical-align: center;
-        color: #707070;
-    }
-    .christopher a:hover{
-        background: none;
-        color: black;
-        font-size: 1rem;
-    }
-    nav .openMenu{
-        display: block;
-    }
-    nav .closeMenu i:hover{
-        background: none;
-        color: black;
-        font-size: 3rem;
-    }
-    nav .mainMenu li a:hover{
-        background: none;
-        color: black;
-        font-size: 1rem;
-    }
+@media(max-width: 768px){
+   
     /* პირველი გვერდის რესფონსივი*/
     .flex{
         display: flex;
         align-items: center;
         flex-direction: column;
     }
+    .way {
+        width: 100%;
+        left: 0;
+    }
+    .way-img{
+        width: 100%;
+    }
     .articl-title{
         width: 100%;
-        height: 346px;
-        padding-top: 40px;
+        height: 343px;
+        padding-top: 140px;
         padding-bottom: 80px;
     }
-    /*.second-title{
+    .second-title{
         padding-left: 80px;
-    }*/
+    }
     .tavel-tecnology {
         display:flex;
         justify-content: space-between;
     }
     .small-articl{
-        padding-left: 40px;
+        padding-left: 80px;
     }
     .flex-block{
         display: flex;
@@ -728,9 +719,26 @@ nav .mainMenu  {
     .first-block1{
         display: none;
     }
+    .bridge-img{
+        width: 90%;
+    }
     .background-artical{
         width: 600px;
         height: 430px;
+    }
+    .city h3 {
+        padding:120px 0 0 44px;
+    }
+    .city p{
+        padding: 10px 40px 10px 44px;
+        line-height: 20px;
+    }
+    .travel h3 {
+        padding:120px 0 0 44px;
+    }
+    .travel p{
+        padding: 10px 60px 10px 44px;
+        line-height: 20px;
     }
     .background-artical-box{
         width: 608px;
@@ -746,7 +754,7 @@ nav .mainMenu  {
     }
     .wrapper-box{
         margin-top: 38px;
-        padding-right: 40px;
+        /*padding-right: 40px;*/
     }
     .wrapper-box1{
         display: none;
@@ -835,12 +843,63 @@ nav .mainMenu  {
 
 }
 @media (max-width: 400px){
+    nav .mainMenu{
+        height: 95vh;
+        position: fixed;
+        top: 0;
+        right: 0;
+        left: 0;
+        z-index: 10;
+        flex-direction: column;
+        justify-content: start;
+        align-items: flex-start;
+        background-color: #F6F8F9;
+        transition: top 1s ease;
+    }
+    nav .mainMenu  .closeMenu{
+        display: block;
+        position: absolute;
+        top: 20px;
+        right: 5px;
+    }
+    nav .mainMenu i{
+        display: inline-block;
+        font-size: 11px;
+    }
+    .christopher a {
+        font-size: 11px;
+        display: inline-block;
+        vertical-align: center;
+        color: #707070;
+    }
+    .christopher a:hover{
+        background: none;
+        color: black;
+        font-size: 1rem;
+    }
+    nav .openMenu{
+        display: block;
+    }
+    nav .closeMenu i:hover{
+        background: none;
+        color: black;
+        font-size: 3rem;
+    }
+    nav .mainMenu li a:hover{
+        background: none;
+        color: black;
+        font-size: 1rem;
+    }
     .responsiv-bg{
         display: block;
     }
+    .about{
+        display: flex;
+        flex-direction: column;
+        background-color:  #A6ADB4;
+    }
     .place{
         width: 100%;
-        left: 0;
     }
     .articl{
         margin-left: 20px;
@@ -876,8 +935,7 @@ nav .mainMenu  {
         padding-left: 40px;
     }
     .background-artical{
-        width: 327px;
-        height: 300px;
+        width: 88%;
         margin-left: 25px;
     }
     .background-artical-box h3{
@@ -885,20 +943,22 @@ nav .mainMenu  {
         padding-left: 40px;
     }
     .background-artical-box{
-        width: 327px;
-        height: 300px;
+        width: 88%;
         margin-left: 25px;
-    }
-    .wrapper-box1 img {
-        width: 327px;
     }
     .wrapper-box1{
         display: block;
-        margin-left: 20px;
-        padding-right:10px ;
-        align-items: center;
+    }
+    .wrapper-box1 img{
+        width: 88%;
     }
     /*footer მენიუ*/
+    .footer-menu{
+        display: flex;
+        flex-direction: column;
+        padding-left:40px;
+        padding-bottom: 80px;
+    }
     .logo-name{
         display: none;
     }
@@ -912,7 +972,8 @@ nav .mainMenu  {
         display: none;
     }
     .nav-bar{
-
+        display: flex;
     }
+    
 
 }
