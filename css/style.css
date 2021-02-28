@@ -164,7 +164,7 @@ nav .mainMenu  {
     padding-top: 50px;
 }
 .small-articl{
-    padding-top: 10px;
+    padding-top: 20px;
 }
 .small-articl h5 {
     font-family: 'Helvetica';
@@ -193,12 +193,18 @@ nav .mainMenu  {
     padding-right: 80px;
     padding-left: 80px;
 }
+.time1{
+    font-family: 'Helvetica';
+    font-size: 13px;
+    color: #A6ADB4;
+    padding-left: 80px;
+    padding-top: 16px;
+}
 .time{
     font-family: 'Helvetica';
     font-size: 13px;
     color: #A6ADB4;
     padding-top: 16px;
-    padding-left: 80px;
 }
 
 
@@ -374,14 +380,7 @@ nav .mainMenu  {
     color: #A6ADB4;
 }
 
-
-
-
 /* ბოლო ნაწილი */
-
-
-
-
 
 .footer-menu{
     display: flex;
@@ -460,11 +459,14 @@ nav .mainMenu  {
     justify-content: space-between;
     cursor: pointer;
     margin-top: 69px;
-    padding-right:19px ;
+    margin-left: 120px;
     font-family: 'Acumin Pro';
     font-weight: bold;
     font-size: 11px;
     color: #A6ADB4;
+}
+.second-page-flex{
+    margin-left: 120px;
 }
 .flexd-block1{
     display: flex;
@@ -489,7 +491,7 @@ nav .mainMenu  {
 .relativ{
     position: absolute;
     margin-top: 160px;
-    /*padding-left: 110px;*/
+    padding-left: 110px;
     z-index: 2;
     text-align: center;
 }
@@ -622,13 +624,23 @@ nav .mainMenu  {
     text-align: start;
     line-height: 30px;
 }
-.second-title-section p , .second-title-section1 p{
+.second-title-section1 p{
     text-align: start;
     margin-top: 38px;
     font-family: 'Helvetica';
     font-size: 14px; 
     line-height: 30px;
     color: #A6ADB4;
+    padding-right: 70px;
+}
+.second-title-section p {
+    text-align: start;
+    margin-top: 38px;
+    font-family: 'Helvetica';
+    font-size: 14px; 
+    line-height: 30px;
+    color: #A6ADB4;
+    padding-right: 70px;
 }
 /* მეორე გვერდის,ბოლო სექცია*/
 
@@ -696,6 +708,58 @@ nav .mainMenu  {
 
 
 @media(max-width: 768px){
+    header{
+        width: 100%;
+        left: 0;
+        right: 0;
+    }
+    nav .mainMenu{
+        height: 95vh;
+        position: fixed;
+        top: 0;
+        right: 0;
+        left: 0;
+        z-index: 10;
+        flex-direction: column;
+        justify-content: start;
+        align-items: flex-start;
+        background-color: #F6F8F9;
+        transition: top 1s ease;
+    }
+    nav .mainMenu  .closeMenu{
+        display: block;
+        position: absolute;
+        top: 20px;
+        right: 5px;
+    }
+    nav .mainMenu i{
+        display: inline-block;
+        font-size: 11px;
+    }
+    .christopher a {
+        font-size: 11px;
+        display: inline-block;
+        vertical-align: center;
+        color: #707070;
+    }
+    .christopher a:hover{
+        background: none;
+        color: black;
+        font-size: 1rem;
+    }
+    nav .openMenu{
+        display: block;
+    }
+    nav .closeMenu i:hover{
+        background: none;
+        color: black;
+        font-size: 3rem;
+    }
+    nav .mainMenu li a:hover{
+        background: none;
+        color: black;
+        font-size: 1rem;
+    }
    
     /* პირველი გვერდის რესფონსივი*/
     .flex{
@@ -850,6 +914,8 @@ nav .mainMenu  {
     }
     .pageNumber-hide {
        display: block;
+       margin-top:400px
+       
     }
     .pageNumber-hide ul{
         display: flex;
@@ -1044,13 +1110,6 @@ nav .mainMenu  {
         width: 327px;
     }
     
-
-
-
-
-
-
-
     /*footer მენიუ*/
     .footer-menu{
         display: flex;
