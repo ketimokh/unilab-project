@@ -75,22 +75,26 @@ nav .mainMenu  {
 /* პირველი სექცია ,მარცხენა მხარე*/
 .flex {
     width: 100%;
+    height: 600px;
     left: 0;
     padding-top:9px;
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
-.way{
-    position: absolute;
-    width: 800px;
+.place{
+    position: relative;
+    width: 840px;
     height: 600px;
 }
 .way-img{
-    width: 93%;
+    position: absolute;
+    width: 100%;
 }
 
 .title {
-    padding-bottom: 14px;
+    width: 400px;
+    padding-bottom: 20px;
     color: #F6F8F9;
     font-family: 'Helvetica';
     font-weight: bold;
@@ -102,8 +106,6 @@ nav .mainMenu  {
 }
 .articl{
     position: relative;
-    width: 525px;
-    height: 76px;
     display:inline-block;
     font-family: 'Helvetica';
     color: #F6F8F9;
@@ -112,7 +114,7 @@ nav .mainMenu  {
 .articl h3{
     font-weight: bold;
     font-size: 24px;
-    padding-top:14px ;
+    padding-top:20px ;
 }
 .articl p{
     font-size: 16px;
@@ -137,8 +139,8 @@ nav .mainMenu  {
 
 .articl-title{
     background-color: #FFFFFF;
-    width: 600px;
     height: 600px;
+    text-align: start;
 }
 .second-title{
     padding-top:60px ;
@@ -147,11 +149,12 @@ nav .mainMenu  {
     box-shadow: 0 2px  #EBEDED;
 }
 
-.news-title{
+.second-title h2 {
     font-family: 'Helvetica';
     font-weight: bold;
     font-size: 24px;
     color: #202124;
+    padding-left: 80px;
 }
 .fa-chevron-left{
     color: #A6ADB4;
@@ -169,6 +172,7 @@ nav .mainMenu  {
     font-size: 16px;
     color: #FA6980;
     padding-bottom: 22px;
+    padding-left: 80px;
 
 }
 .small-articl h3 {
@@ -176,6 +180,7 @@ nav .mainMenu  {
     font-weight: bold;
     font-size: 16px;
     color: #202124;
+    padding-left: 80px;
     padding-bottom: 18px;
     
 }
@@ -185,19 +190,21 @@ nav .mainMenu  {
     color: #A6ADB4;
     padding-top: 14px;
     line-height: 20px;
+    padding-right: 80px;
+    padding-left: 80px;
 }
 .time{
     font-family: 'Helvetica';
     font-size: 13px;
     color: #A6ADB4;
     padding-top: 16px;
+    padding-left: 80px;
 }
 
 
 /* მეორე სექცია */
 
 .section{
-    padding-left: 120px;
     padding-top: 98px;
 }
 .second-title-block{
@@ -208,15 +215,19 @@ nav .mainMenu  {
 .awsame{
     margin-right: 50px;
 }
+.flex-block  {
+    margin-left: 80px;
+    margin-right: 40px;
+}
 .flex-block{
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-between;
 }
 .first-block,.first-block1{
     background-color: #FFFFFF;
     width: 360px;
     height: 350px;
-    margin-right: 20px;
 }
 .first-block h4,.first-block1 h4 {
     padding-top: 44px;
@@ -240,29 +251,46 @@ nav .mainMenu  {
 
 .second-title-block1{
     margin-top: 120px;
-    padding-left: 120px;
     padding-bottom: 36px;
     display:flex;
     justify-content: space-between;
+}
+.second-title-block h2{
+    font-family: 'Helvetica';
+    font-weight: bold;
+    font-size: 24px;
+    color: #202124;
+    padding-left: 120px;
+}
+.second-title-block1 h2{
+    font-family: 'Helvetica';
+    font-weight: bold;
+    font-size: 24px;
+    padding-left: 120px;
+    color: #202124;
 }
 .flex-second-block{
     display: flex;
     flex-wrap: wrap;
     margin-bottom: 90px;
-    padding-left: 120px;
+}
+.background{
+    width: 760px;
+    margin-top: 40px ;
 }
 .background-artical{
-    width: 760px;
-    height: 430px;
-    margin: 40px 0 0 0;
+    padding-left: 40px;
+    position: relative;
+   
+}
+.bridge-img{
+    position: absolute;
+    
 }
 .city{
     position: relative;
 }
-.bridge{
-    position: absolute;
-}
-.background-artical h4 {
+.city h4 {
     padding: 40px 0 0 40px;
     font-family: 'Helvetica';
     font-weight: bold;
@@ -274,13 +302,13 @@ nav .mainMenu  {
     font-weight: bold;
     font-size: 24px;
     color: #F6F8F9;
-    padding: 240px 0 0 44px;
+    padding: 140px 0 0 44px;
 }
 .city p{
     font-family: 'Helvetica';
     font-size: 16px;
     color: #F6F8F9;
-    padding: 10px 0 10px 44px;
+    margin: 10px 0 10px 44px;
     line-height: 20px;
 }
 .clock{
@@ -288,23 +316,15 @@ nav .mainMenu  {
     color: #F6F8F9;
     font-size: 13px;
 }
-.forest{
-    position: absolute;
-    
+.background-artical-box{
+    position: relative;
+    margin-top: 120px ;
+    padding-left: 40px;
 }
 .travel{
     position: relative;
 }
-.bridge-img{
-    width: 100%;
-}
-
-.background-artical-box{
-    width: 760px;
-    height: 430px;
-    margin: 40px 0 0 0;
-}
-.background-artical-box h4{
+.travel h4{
     padding: 40px 0 0 40px;
     font-family: 'Helvetica';
     font-weight: bold;
@@ -316,7 +336,7 @@ nav .mainMenu  {
     font-weight: bold;
     font-size: 24px;
     color: #F6F8F9;
-    padding: 240px 0 0 44px;
+    padding: 140px 0 0 44px;
 }
 .travel p{
     font-family: 'Helvetica';
@@ -333,8 +353,12 @@ nav .mainMenu  {
 
 
 .pictures-block{
-   padding-left:30px;
    margin-top: 40px;
+   padding-left: 80px;
+   /*padding-left: 40px;*/
+}
+.wrapper-box img , .wrapper-box1 img {
+    width: 100%;
 }
 .wrapper-box h6 ,.wrapper-box1 h6 {
     font-family: 'Acumin Pro';
@@ -430,12 +454,6 @@ nav .mainMenu  {
 
 /*მეორე გვერდი, პირველი ნაწილი */
 
-
-
-
-.background1{
-    margin-left: 140px;
-}
 .flexd-block{
     display: flex;
     align-items: center;
@@ -471,7 +489,7 @@ nav .mainMenu  {
 .relativ{
     position: absolute;
     margin-top: 160px;
-    padding-left: 110px;
+    /*padding-left: 110px;*/
     z-index: 2;
     text-align: center;
 }
@@ -529,14 +547,12 @@ nav .mainMenu  {
     font-size: 13px;
     padding-bottom: 20px;
     border-radius: 8px;
-    width: 360px;
     height: 40px;
 }
 .label-box{
     display: flex;
     flex-direction: column;
     border-radius: 8px;
-    width: 360px;
     height: 40px;
     padding-top: 18px;
 }
@@ -586,13 +602,11 @@ nav .mainMenu  {
 
 
 
-.article-box{
-    width: 1160px;
-    height: 253px;
+.project-box{
     display: flex;
     justify-content: space-between;
-    margin-top: 80px;
-    margin-bottom: 40px;
+    margin: 80px 0 40px ;
+    margin-left: 120px;
     border: 1px solid #EBEDED;
 }
 .main-title-section{
@@ -608,19 +622,20 @@ nav .mainMenu  {
     text-align: start;
     line-height: 30px;
 }
-.second-title-section ,.second-title-section1 p{
-    line-height: 20px;
-}
-.second-title-section, .second-title-section1{
+.second-title-section p , .second-title-section1 p{
     text-align: start;
     margin-top: 38px;
     font-family: 'Helvetica';
     font-size: 14px; 
+    line-height: 30px;
     color: #A6ADB4;
 }
 /* მეორე გვერდის,ბოლო სექცია*/
+
+
 .last-block{
-    margin: 70px 0 160px 0;
+    margin: 70px 0 160px;
+    padding-left:120px ;
     border-bottom: 1px solid #EBEDED;
 }
 .eleph{
@@ -655,20 +670,27 @@ nav .mainMenu  {
 
 /* რესფონსივი*/
 
-@media(max-width: 900px){
-    .flex-block{
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
+@media(max-width: 1120px){
+    .articl{
+        padding-top: 100px;
+    }
+    .wrapper-box  .wrapper-box1{
+        margin-left: 100px;
     }
     .first-block1{
         margin-top:40px ;
     }
-    .pictures-block{
-        display: flex;
+    .background-artical-box{
+        margin-top: 120px;
     }
-    .wrapper-box, .wrapper-box1{
-        padding-left: 40px;
+    .pictures-block{
+       display: flex;
+       flex-wrap: wrap;
+       justify-content: center;
+       margin-top: 120px;
+    }
+    .travel h3 , .city h3  {
+        padding: 140px 0px 0px 44px;;
     }
 }
 
@@ -681,28 +703,36 @@ nav .mainMenu  {
         align-items: center;
         flex-direction: column;
     }
-    .way {
+    .place{
         width: 100%;
         left: 0;
+        right: 0;
     }
-    .way-img{
-        width: 100%;
+    .articl{
+        padding-top: 200px;
+    }
+    .button{
+        margin-top:0 ;
     }
     .articl-title{
-        width: 100%;
-        height: 343px;
-        padding-top: 140px;
+        margin-top: 200px;
         padding-bottom: 80px;
     }
     .second-title{
-        padding-left: 80px;
+        /*padding-left: 40px;*/
     }
     .tavel-tecnology {
         display:flex;
         justify-content: space-between;
     }
     .small-articl{
-        padding-left: 80px;
+        padding-left: 40px;
+    }
+    .section{
+        margin-top: 300px;
+    }
+    .news-title{
+        padding-left: 40px;
     }
     .flex-block{
         display: flex;
@@ -719,45 +749,32 @@ nav .mainMenu  {
     .first-block1{
         display: none;
     }
-    .bridge-img{
-        width: 90%;
-    }
-    .background-artical{
-        width: 600px;
-        height: 430px;
-    }
-    .city h3 {
-        padding:120px 0 0 44px;
-    }
-    .city p{
-        padding: 10px 40px 10px 44px;
-        line-height: 20px;
-    }
-    .travel h3 {
-        padding:120px 0 0 44px;
-    }
-    .travel p{
-        padding: 10px 60px 10px 44px;
-        line-height: 20px;
-    }
     .background-artical-box{
-        width: 608px;
-        height: 430px;
+        margin-top: 300px;
+    
     }
     .pictures-block{
+        width: 100%;
         display: flex;
-       /* margin-left:80px;*/
+        justify-content: space-between;
+        margin-top: 00px;
     }
-    .wrapper-box img{
+    .wrapper-box{
         width: 284px;
         height: 180px;
     }
-    .wrapper-box{
-        margin-top: 38px;
-        /*padding-right: 40px;*/
-    }
     .wrapper-box1{
         display: none;
+    }
+    .travel h4 , .city h4  {
+        padding-top: 5px;
+    }
+    .travel h3 , .city h3  {
+        padding: 20px 0px 0px 44px;
+        line-height: 10px;
+    }
+    .travel p  , .city p  {
+        line-height: 15px;
     }
     .responciv-footer{
         display: flex;
@@ -767,6 +784,11 @@ nav .mainMenu  {
         margin-left: 20px;
     }
     /*მეორე გვერდის რესფონსივი*/
+
+
+
+
+
     .second-page-flex{
         display: flex;
         flex-direction: column;
@@ -793,7 +815,7 @@ nav .mainMenu  {
         border-radius: 9px;
         cursor: pointer;
     }
-    .article-box{
+    .project-box{
         display: flex;
         flex-wrap: wrap;
         width: 608px;
@@ -810,11 +832,13 @@ nav .mainMenu  {
         width: 250px;
         height: 224px;
     }
-    .eleph{
-        width: 608px;
+    .last-block img{
+        width: 100%;
         height: 260px;
     }
     .last-block{
+        width: 608px;
+        height: 260px;
         margin-top: 40px;
     }
     .molestie ,.molestie1{
@@ -822,6 +846,7 @@ nav .mainMenu  {
     }
     .molestie-hide{
         display: block;
+        width: 608px;
     }
     .pageNumber-hide {
        display: block;
@@ -843,6 +868,11 @@ nav .mainMenu  {
 
 }
 @media (max-width: 400px){
+    header{
+        width: 100%;
+        left: 0;
+        right: 0;
+    }
     nav .mainMenu{
         height: 95vh;
         position: fixed;
@@ -901,11 +931,30 @@ nav .mainMenu  {
     .place{
         width: 100%;
     }
+    .button{
+        margin-top: 20px;
+    }
     .articl{
-        margin-left: 20px;
+        padding-left: 10px;
         padding-right:10px ;
         width: 327px;
         align-items: center;
+        padding-top: 20px;
+    }
+    .title {
+        padding-bottom: 10px;
+    }
+    .title-hide{
+        display: none;
+    }
+    .articl h3{
+        font-weight: bold;
+        font-size: 24px;
+        padding-bottom: 20px;
+    }
+    .articl p{
+        font-size: 16px;
+        line-height: 20px;
     }
     .title-open{
         display: none;
@@ -920,38 +969,88 @@ nav .mainMenu  {
         padding: 40px 0 50px 0;
         display: block;
     }
+    .articl-title{
+        margin-top: 20px;
+        width: 378px;
+        height: 478px;
+    }
     .tavel-tecnology{
         display: flex;
         flex-direction: column;
     }
-    .news-title{
-        margin-left: 20px;
-    }
     .first-block{
         padding-bottom: 50px;
     }
-    .background-artical h3{
-        padding-top: 60px;
-        padding-left: 40px;
+    .bridge-img{
+        width: 327px;
     }
-    .background-artical{
-        width: 88%;
-        margin-left: 25px;
-    }
-    .background-artical-box h3{
-        padding-top: 60px;
-        padding-left: 40px;
+    .background{
+        width: 90%;
+        margin-left: 20px;
     }
     .background-artical-box{
-        width: 88%;
-        margin-left: 25px;
+        margin-top: 20px;
+    }
+    .background-artical h3{
+        padding-top: 40px;
+        padding-left: 40px;
+    }
+    .background-artical-box h3{
+        padding-top: 40px;
+        padding-left: 40px;
+    }
+    .pictures-block{
+        padding-right:60px;
     }
     .wrapper-box1{
+        width: 327px;
         display: block;
     }
     .wrapper-box1 img{
-        width: 88%;
+        width: 90%;
     }
+    /* მეორე გვერდი*/ 
+
+    .pothition{
+        width: 327px;
+    }
+    .natural{
+        width: 100%;
+    }
+    .relativ {
+        margin-bottom: 200px;
+    }
+
+    .project-box{
+        width: 327px;
+        display: block;
+        align-items: center;
+        
+    }
+    .last-block{
+        width: 327px;
+        margin-top: 50px;
+    }
+    .second-title-section{
+        padding-right: 60px;
+    }
+    .last-block p{
+        width: 100%;
+    }
+    .pageNumber-hide{
+        padding-top: 700px;
+    }
+    .keywords{
+        width: 327px;
+    }
+    
+
+
+
+
+
+
+
     /*footer მენიუ*/
     .footer-menu{
         display: flex;
