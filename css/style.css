@@ -276,16 +276,19 @@ nav .mainMenu  {
     color: #202124;
 }
 .flex-second-block{
+    width: 100%;
     display: flex;
+    justify-content: space-around;
     flex-wrap: wrap;
     margin-bottom: 90px;
 }
 .background{
     width: 760px;
     margin-top: 40px ;
+    padding-left: 20px;
+    
 }
 .background-artical{
-    padding-left: 40px;
     position: relative;
    
 }
@@ -325,7 +328,6 @@ nav .mainMenu  {
 .background-artical-box{
     position: relative;
     margin-top: 120px ;
-    padding-left: 40px;
 }
 .travel{
     position: relative;
@@ -360,8 +362,6 @@ nav .mainMenu  {
 
 .pictures-block{
    margin-top: 40px;
-   padding-left: 80px;
-   /*padding-left: 40px;*/
 }
 .wrapper-box img , .wrapper-box1 img {
     width: 100%;
@@ -452,30 +452,44 @@ nav .mainMenu  {
 
 
 /*მეორე გვერდი, პირველი ნაწილი */
+.background1{
+    width: 100%;
+    left: 0;
+    right: 0;
+}
 
 .flexd-block{
     display: flex;
-    align-items: center;
     justify-content: space-between;
     cursor: pointer;
     margin-top: 69px;
-    margin-left: 120px;
     font-family: 'Acumin Pro';
     font-weight: bold;
     font-size: 11px;
     color: #A6ADB4;
+    padding-left: 110px;
 }
 .second-page-flex{
-    margin-left: 120px;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+.top-arrow{
+    display: none;
 }
 .flexd-block1{
     display: flex;
+    padding-top: 3px;
 }
 .border{
     margin-left:19px ;
 }
-.fa-sliders-h{
-    font-size: 11px;
+.gradian{
+    border: 2px solid #d3d7d8;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    overflow: hidden;
+    font-size: 10px;
     color: #202124;
 }
 .hover{
@@ -485,13 +499,17 @@ nav .mainMenu  {
     cursor: pointer;
 }
 .pothition{
+    margin-left: 100px;
     width: 580px;
     height: 500px;
 }
+.natural {
+    width: 100%
+}
 .relativ{
+    width: 50%;
     position: absolute;
     margin-top: 160px;
-    padding-left: 110px;
     z-index: 2;
     text-align: center;
 }
@@ -505,7 +523,7 @@ nav .mainMenu  {
 .title-block{
     border-bottom: 2px solid #FA6980;
     width: 40px;
-    margin-left:160px ;
+    margin-left:300px ;
     padding-bottom: 12px;
 }
 .relativ p{
@@ -537,6 +555,7 @@ nav .mainMenu  {
     width: 580px;
     height: 500px;
     margin-top: 35px;
+    margin-right: 85px;
 }
 .box-name{
     padding: 150px 82px 117px 138px;
@@ -563,11 +582,11 @@ nav .mainMenu  {
     font-family: 'Helvetica';
     font-size: 13px; 
     outline: none;
-    color:#A6ADB4;
     border-radius: 8px;
     border: 2px solid #EBEDED;
     cursor: pointer;
 }
+
 .checkbox{
     padding-top: 18px;
     outline: none;
@@ -683,6 +702,9 @@ nav .mainMenu  {
 /* რესფონსივი*/
 
 @media(max-width: 1120px){
+    .container{
+        width: 100%;
+    }
     .articl{
         padding-top: 100px;
     }
@@ -708,6 +730,11 @@ nav .mainMenu  {
 
 
 @media(max-width: 768px){
+    .container{
+        width: 100%;
+        left: 0;
+        right: 0;
+    }
     header{
         width: 100%;
         left: 0;
@@ -934,6 +961,9 @@ nav .mainMenu  {
 
 }
 @media (max-width: 400px){
+    .container{
+        width: 100%;
+    }
     header{
         width: 100%;
         left: 0;
@@ -994,7 +1024,10 @@ nav .mainMenu  {
         flex-direction: column;
         background-color:  #A6ADB4;
     }
-    .place{
+    .flex{
+        width: 100%;
+    }
+    .way-img{
         width: 100%;
     }
     .button{
@@ -1047,41 +1080,89 @@ nav .mainMenu  {
     .first-block{
         padding-bottom: 50px;
     }
-    .bridge-img{
-        width: 327px;
-    }
     .background{
-        width: 90%;
-        margin-left: 20px;
+        width: 100%;
     }
     .background-artical-box{
+        
+        align-items: center;
         margin-top: 20px;
     }
+    .background-artical-box img{
+        width: 327px;
+        height: 300px;
+    }
+    .background-artical{
+        align-items: center;
+    }
+    .background-artical img{ 
+        width: 327px;
+        height: 300px;
+    }
     .background-artical h3{
-        padding-top: 40px;
+        padding-top: 80px;
+        padding-bottom: 40px;
         padding-left: 40px;
+    }
+    .city{
+        width: 80%;
+
     }
     .background-artical-box h3{
-        padding-top: 40px;
+        padding-top: 80px;
+        padding-bottom: 40px;
         padding-left: 40px;
     }
-    .pictures-block{
-        padding-right:60px;
+    .travel{
+        width: 80%;
+
+    }
+    .wrapper-box {
+        padding-top: 40px;
+        width: 100%;
+        height: 180px;
+        display: block;
+        padding-left: 20px;
+    }
+    .wrapper-box img{
+        width: 327px;
+        height: 180px;
     }
     .wrapper-box1{
-        width: 327px;
+        padding-top: 40px;
+        width: 100%;
+        height: 180px;
         display: block;
+        padding-left: 20px;
     }
-    .wrapper-box1 img{
-        width: 90%;
+    .wrapper-box1 img {
+        width: 327px;
+        height: 180px;
     }
     /* მეორე გვერდი*/ 
 
+    .background1{
+        width: 100%;
+    }
+
+    .flexd-block{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .flexd-block1{
+        display: none;
+    }
+    .top-arrow{
+        display: block;
+        color: black;
+    }
     .pothition{
         width: 327px;
     }
     .natural{
-        width: 100%;
+        width: 90%;
     }
     .relativ {
         margin-bottom: 200px;
@@ -1112,25 +1193,7 @@ nav .mainMenu  {
     
     /*footer მენიუ*/
     .footer-menu{
-        display: flex;
-        flex-direction: column;
-        padding-left:40px;
-        padding-bottom: 80px;
-    }
-    .logo-name{
         display: none;
-    }
-    .mail{
-        display: none;
-    }
-    .icones-bar{
-        display:flex;
-    }
-    .nav-hide{
-        display: none;
-    }
-    .nav-bar{
-        display: flex;
     }
     
 
